@@ -301,7 +301,7 @@ ggplot(data = CIs_data) +
   theme_minimal() + # some theme to change the appearance
   labs(
     title = "Confidence Interval for Mean",
-    subtitle = "Population mean equals 10",
+    subtitle = "Population mean equals 500",
     x = "Mean",
     y = "Sample",
     color = "Is true population parameter inside the CI?"
